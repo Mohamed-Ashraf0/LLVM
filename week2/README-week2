@@ -25,6 +25,10 @@
 
    ```powershell
    cmake --build . --config Release --target install
+   After finishing (this can take 1–2 hours), you will get a copy of:
+   -All final binaries (clang.exe, opt.exe, llc.exe, etc.)
+   -LLVM headers
+   -LLVM libraries
 
 6. **Create Your Pass Folder**  
    Create a folder named `my-pass` that will contain your custom LLVM pass.  
