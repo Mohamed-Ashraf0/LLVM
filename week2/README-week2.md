@@ -25,7 +25,8 @@
 
    ```powershell
    cmake --build . --config Release --target install
-   After finishing (this can take 1–2 hours), you will get a copy of:
+
+After finishing (this can take 1–2 hours), you will get a copy of:
    -All final binaries (clang.exe, opt.exe, llc.exe, etc.)
    -LLVM headers
    -LLVM libraries
